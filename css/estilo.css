@@ -1,0 +1,157 @@
+* { 
+    box-sizing: border-box;
+    transition: .3s;
+}
+html, body { 
+    
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    line-height: 1.25;
+}
+.container {
+    width: 100%;
+    max-width: 1020px;
+    margin: auto;
+    min-width: 300px;
+}
+
+body{
+	background-image: url("../img/teste.jpg");
+	background-size: cover;
+}
+/*usado na primeira section com classe container*/
+.fundoN{
+	
+	background: rgba(0,0,0,.4);
+}
+/*usado para dar espaçamento entre slide e proximo conteudo (aplicado na tag da equipe)*/
+.orgSlide{
+	padding-top:10px;
+}
+/* usado para editar fotos da equipe de clinica (aplicado na tag img da equipe)*/
+.ajusteA{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 150px;
+	border-radius:50%;
+}
+.ajusteE{
+	width:85%;
+	
+}
+
+.arredondarN{
+	border-radius: 30%;
+}
+.textoE{
+	font-size: 12px;
+	text-align: center;
+}
+/*usado para edição do campo de comentários */
+.arredondar{
+	border-top-left-radius: 25%;
+	border-top-right-radius: 25%;
+}
+.ajusteQ{
+	width:85%;
+	font-size: 12px;
+	
+}
+/* Estilo para o mapa*/
+.estiloM{
+	margin:0 auto;
+	
+}
+.teste{
+	width: 1020px;;
+}
+/*usado no rodapé (aplicado na tag footer)*/
+.rodaP{
+	font-size: 12px;
+	opacity:0.9;
+	display: flex;
+	padding-left:25px;
+	bottom:0;
+	width:100%;
+	background: rgba(25,46,54,.9);
+	color:#fff;
+}
+.textoR{
+	padding-top: 10px;
+}
+.orgSlideB{
+	padding-bottom:10px;
+}
+.ajusteC{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 100px;
+	border-radius: 50%;
+}
+/*Area de login*/
+.ajusteL{
+	padding-bottom:90px;
+	padding-top:90px;
+}
+.ajusteX{
+	padding-bottom:70px;
+	padding-top:10px;
+}
+.jumbotron{
+	color: white;
+    background-color: rgba(25,46,54,.9);
+}
+.separar{
+	margin-right: 6px;
+}
+/* area de cadastro */
+.fundoC{
+	margin-top: 50px;
+	
+}
+
+/* area de Consulta*/
+.ajusteW{
+	padding-bottom:200px;
+	padding-top:200px;
+}
+.fundoW{
+	color: white;
+	margin-top:30px;
+	margin-bottom: 20px;
+	background-color: rgba(25,46,54,.9);
+}
+
+/*Cancelamento*/
+.ajusteZ{
+	padding-bottom:200px;
+	padding-top:200px;
+}
+.fundoZ{
+	color: white;
+	margin-top:30px;
+	margin-bottom: 20px;
+	background-color: rgba(25,46,54,.9);
+}
+.rodaZ{
+	padding-top:20px;
+	line-height:20px;
+	font-size: 13px;
+	opacity:0.9;
+	display: flex;
+	padding-left:25px;
+	bottom:0;
+	width:100%;
+	background: rgba(25,46,54,.9);
+	color:#fff;
+	height:120px;
+}
+.far{
+	color:gray;
+}
+.hj{
+	margin-top: 0.5%;
+}
+.on{
+	color:#3CB371;
+}
